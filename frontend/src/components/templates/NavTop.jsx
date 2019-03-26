@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import './navTop.css'
 
 export default props=>
     <nav className="navbar navbar-static-top">
