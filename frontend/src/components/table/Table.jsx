@@ -5,12 +5,12 @@ export default props =>
             <table className="table table-hover">
                 <thead>
                     <tr>
-                        {props.tableHeader.map(thValor=>
+                        {props.tableHeader && props.tableHeader.map(thValor=>
                             <th key={thValor}>{thValor}</th>)}             
                     </tr>                    
                 </thead>
                 <tbody>
-                    {props.tableBody.map(obj => 
+                    {props.tableBody && props.tableBody.map(obj => 
                         <tr key={obj.id}>
                             {Object.entries(obj).map(property => 
                             {if(property[0]!=='id'){

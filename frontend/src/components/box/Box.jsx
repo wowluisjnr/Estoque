@@ -17,8 +17,7 @@ export default props=>
         </div>        
         <div className="box-body">
             {props.children}            
-        </div>
-        
+        </div>        
         {props.elementFooter && <div className="box-footer">
             {props.elementFooter}
         </div>}
