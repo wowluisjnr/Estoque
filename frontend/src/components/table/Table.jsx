@@ -15,8 +15,10 @@ export default props =>
                             {Object.entries(obj).map(property => 
                             {if(property[0]!=='id'){
                                 return <td key={property[0]}>{property[1]}</td>
-                            }})                            
+                            }
+                        })                            
                         }
+                        {props.actionButtons && 
                         <td>
                             <button className='btn bg-warning btn-sm' onClick={() => props.onClick(obj,false)}>
                                 <i className='fa fa-pencil'></i>
@@ -24,7 +26,7 @@ export default props =>
                             <button className='btn bg-danger btn-sm' onClick={() => props.onClick(obj, true)}>
                                 <i className='fa fa-trash'></i>
                             </button>
-                        </td>
+                        </td>}
                         </tr>)}
                         {/* Children para adicionar linhas personalizadas <tr>*/}
                         {props.children}

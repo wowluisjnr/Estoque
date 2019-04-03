@@ -28,22 +28,17 @@ return(
 <aside className="main-sidebar">
     <section className="sidebar">
         <ul className="sidebar-menu">
-            <li className="header">CONTROLE FINANCEIRO</li>
+            <li className="header">CONTROLE DE ESTOQUE</li>
             <li name="/" onClick={this.props.onClick}>
                 <NavLink to="/" isActive={changeLinkActive}>
                     <i className="fa fa-bar-chart"></i>
-                    <span>Visão Geral</span>
+                    <span>Estoque Atual</span>
                 </NavLink>
             </li>
-            <li name="/despesas" onClick={this.props.onClick}>
-                <NavLink to="/despesas" isActive={changeLinkActive}>
+            <li name="/medicamentos" onClick={this.props.onClick}>
+                <NavLink to="/medicamentos" isActive={changeLinkActive}>
                     <i className="fa fa-credit-card"></i>
-                    <span>Despesas</span>
-                </NavLink>
-            </li>
-            <li name="/categorias" onClick={this.props.onClick}>
-                <NavLink  to="/categorias" isActive={changeLinkActive}>
-                    <i className="fa fa-tags"></i><span>Categorias</span>
+                    <span>Medicamentos Cadastrados</span>
                 </NavLink>
             </li>
         </ul>

@@ -1,0 +1,58 @@
+{
+  "estoque": [
+    {
+      "lote": {
+        "id": 1,
+        "medicamento": {
+          "id": 1,
+          "composicao": "Losartana 50mg",
+          "unidade": "CP"
+        },
+        "dataValidade": "10/2020"
+      },
+      "quantidade": 960,
+      "id": 1
+    },
+    {
+      "lote": {
+        "id": 1,
+        "medicamento": {
+          "id": 1,
+          "composicao": "Losartana 50mg",
+          "unidade": "CP"
+        },
+        "dataValidade": "10/2020"
+      },
+      "quantidade": 960,
+      "id": 2
+    }
+  ],
+  "lote": [
+    {
+      "id": 1,
+      "medicamento": {
+        "id": 1,
+        "composicao": "Losartana 50mg",
+        "unidade": "CP"
+      },
+      "dataValidade": "10/2020"
+    }
+  ],
+  "medicamentos": [
+    {
+      "id": 1,
+      "composicao": "Losartana Potássica  50mg",
+      "unidade": "CP"
+    },
+    {
+      "composicao": "Losartana Potássica  25mg",
+      "unidade": "CP",
+      "id": 2
+    },
+    {
+      "composicao": "Dipirona 500mg",
+      "unidade": "CP",
+      "id": 3
+    }
+  ]
+}
