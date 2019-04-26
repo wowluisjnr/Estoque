@@ -28,15 +28,7 @@
     }
   ],
   "lote": [
-    {
-      "id": 1,
-      "medicamento": {
-        "id": 1,
-        "composicao": "Losartana 50mg",
-        "unidade": "CP"
-      },
-      "dataValidade": "10/2020"
-    }
+    
   ],
   "medicamentos": [
     {
@@ -53,6 +45,14 @@
       "composicao": "Dipirona 500mg",
       "unidade": "CP",
       "id": 3
+    },
+    {
+      "composicao": "Albendazol ",
+      "unidade": "CP",
+      "id": 4
     }
+  ],
+  "entradas": [
+    
   ]
 }

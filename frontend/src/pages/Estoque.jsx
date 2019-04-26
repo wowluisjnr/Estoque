@@ -43,6 +43,7 @@ export default class Estoque extends React.Component{
     {
         return( 
         <Main title="Estoque" subtitle="Estoque Atual">
+            
             <Box title="Estoque Atual" width='12'>
                 <Table tableHeader={['Medicamento', 'Unidade', 'Data de Validade', 'Quantidade']}
                         tableBody={this.state.list}
@@ -50,5 +51,23 @@ export default class Estoque extends React.Component{
 
             </Box>
         </Main>)
+    }
+
+    formAddEst(){
+        return (
+        <form>
+            <div className="col-xs-3">
+                <input type="text" className="form-control"/>
+            </div>
+            <div className="col-xs-3">
+                <input type="text" className="form-control" name="unidade"/>
+            </div>
+            <div className="col-xs-3">
+                <input type="text" className="form-control" name="dataValidade" placeholder="Data de validade"/>
+            </div>
+            <div className="col-xs-3">
+                <input type="text" className="form-control" name="quantidade" placeholder="Quantidade"/>
+            </div>
+        </form>)
     }
 }

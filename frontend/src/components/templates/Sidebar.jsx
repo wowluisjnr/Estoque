@@ -41,6 +41,12 @@ return(
                     <span>Medicamentos Cadastrados</span>
                 </NavLink>
             </li>
+            <li name="/historicoEntradas" onClick={this.props.onClick}>
+                <NavLink to="/historicoEntradas" isActive={changeLinkActive}>
+                    <i className="fa fa-credit-card"></i>
+                    <span>Historico de Entradas</span>
+                </NavLink>
+            </li>
         </ul>
     </section>
 </aside>)
